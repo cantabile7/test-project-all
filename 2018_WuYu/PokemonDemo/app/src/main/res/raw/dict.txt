@@ -1,0 +1,3 @@
+Monday:sad
+Wednesday:tired
+Friday:happy

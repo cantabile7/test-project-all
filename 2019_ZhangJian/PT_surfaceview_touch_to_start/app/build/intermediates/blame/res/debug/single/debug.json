@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_game.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\layout\\activity_game.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\raw_ir_begin.wav.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\raw\\ir_begin.wav"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\raw_bg.mp3.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\raw\\bg.mp3"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_wallpaper.jpg.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\drawable-mdpi\\wallpaper.jpg"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pic02.jpg.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\drawable-mdpi\\pic02.jpg"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\res\\merged\\debug\\menu_game.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\src\\main\\res\\menu\\game.xml"
+    }
+]

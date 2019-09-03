@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg01"
+    tools:context=".ColorCardActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/taback"
+        android:gravity="bottom" >
+
+        <LinearLayout
+            android:id="@+id/sampleTab"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:background="@drawable/tabselected"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textColorDiff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="色卡"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/searchTab"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/sample01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检索"
+                android:textColor="@color/darkgreen"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/identifyTab"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/sample02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辨色"
+                android:textColor="@color/darkgreen"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

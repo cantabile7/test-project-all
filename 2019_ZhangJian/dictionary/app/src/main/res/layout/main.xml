@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/sampleTab"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/showTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单词列表"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/searchTab"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/searchTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索单词"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addTab"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/addTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="导入单词"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tab"
+        android:orientation="vertical"
+        android:background="@drawable/bg01">
+
+    </LinearLayout>
+
+</LinearLayout>

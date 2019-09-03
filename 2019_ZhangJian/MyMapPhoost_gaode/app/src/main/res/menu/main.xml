@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_gallery"
+        android:orderInCategory="100"
+        android:icon="@drawable/gallery"
+        android:showAsAction="always|withText"
+        android:title="相册"/>
+    <item
+        android:id="@+id/menu_item_add"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="新增条目"/>
+    <item
+        android:id="@+id/menu_item_remove"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="移除条目"/>
+    <item
+        android:id="@+id/menu_item_edit"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="修改名称"/>
+    <item
+        android:id="@+id/menu_item_des"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="添加描述"/>
+    
+</menu>

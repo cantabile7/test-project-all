@@ -1,0 +1,4 @@
+#Mon Apr 15 16:24:46 CST 2019
+base.0=D\:\\AndroidStudioProjects\\2019_ZhangJian\\PT_surfaceview_touch_to_start\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

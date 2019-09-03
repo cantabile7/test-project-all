@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GridFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Select a character"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/blas_btn"
+                android:tag="blastoise"
+                android:scaleType="centerInside"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/blastoise" />
+
+            <ImageButton
+                android:id="@+id/bul_btn"
+                android:tag="bulbasaur"
+                android:scaleType="centerInside"
+                android:layout_width="150dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/bulbasaur" />
+
+            <ImageButton
+                android:id="@+id/cha_btn"
+                android:tag="charizard"
+                android:scaleType="centerInside"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/charizard" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/charmander_btn"
+                android:tag="charmander"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/charmander" />
+
+            <ImageButton
+                android:id="@+id/charmeleon_btn"
+                android:tag="charmeleon"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/charmeleon" />
+
+            <ImageButton
+                android:id="@+id/ivysaur_btn"
+                android:tag="ivysaur"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ivysaur" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/squirtle_btn"
+                android:tag="squirtle"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/squirtle" />
+
+            <ImageButton
+                android:id="@+id/venusaur_btn"
+                android:tag="venusaur"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/venusaur" />
+
+            <ImageButton
+                android:id="@+id/wartortle_btn"
+                android:tag="wartortle"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/wartortle" />
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+</LinearLayout>

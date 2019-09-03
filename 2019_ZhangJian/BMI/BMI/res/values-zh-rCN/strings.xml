@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="str_height">身高(厘米):</string>
+    <string name="str_weight">体重(公斤):</string>
+    <string name="str_calc">计算体质指数</string>
+    <string name="str_result">结果:</string>
+    
+    <string name="str_thin">你的体型偏瘦，需要增加营养</string>
+    <string name="str_normal">你的体型不错，请继续保持</string>
+    <string name="str_fat">你的体型偏胖，需要增强锻炼</string>
+
+    <string name="str_error">提示：输入有误</string>
+
+    <string name="str_menu_info">说明</string>
+    <string name="str_menu_quit">退出</string>
+    
+    <string name="str_bmi_title">说明:</string>
+    <string name="str_bmi_info">
+BMI是Body Mass Index 的缩写，是以你的身高体重计算出来的。
+BMI计算的是身体脂肪的比例，所以在测量身体因超重而面临心脏病、
+高血压等风险上，比单纯的以体重来认定，更具准确性。\n
+特别注意，不是每个人都适用BMI的，如果你是∶\n
+1. 未满18岁；\n
+2. 是运动员； \n
+3. 正在做重量训练； \n
+4. 怀孕或哺乳中； \n
+5. 身体虚弱或久坐不动的老人\n
+那么BMI的指数对你不适用。 如果你认为BMI算出来的结果不正确，
+请带着结果与你的医师讨论，并要求做体脂肪测试。</string>
+    
+</resources>
